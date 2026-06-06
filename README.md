@@ -42,7 +42,7 @@ The complete Abaqus finite element model files and full simulation input decks a
 
 ## Suggested data availability statement
 
-The data supporting the findings of this study are openly available in the public GitHub repository "AE-ship-damage-monitoring-data" at https://github.com/lvdacong/AE-ship-damage-monitoring-data. The repository contains the preprocessed strain-response matrices, measurement metadata, baseline validation results, pretrained model, and analysis scripts used in the study. The complete Abaqus finite element model files and simulation input decks are not publicly shared because they contain institution-controlled ship structural model information and unpublished research materials.
+The data supporting the findings of this study are openly available in the public GitHub repository "AE-ship-damage-monitoring-data" at https://github.com/lvdacong/AE-ship-damage-monitoring-data/releases/tag/v1.0.0. The repository contains the preprocessed strain-response matrices, measurement metadata, baseline validation results, pretrained model, and analysis scripts used in the study. The complete Abaqus finite element model files and simulation input decks are not publicly shared because they contain institution-controlled ship structural model information and unpublished research materials.
 
 ## License
 
