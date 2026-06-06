@@ -1,0 +1,42 @@
+{
+  "title": "Supporting data for autoencoder-based gradual damage warning for ship structures",
+  "manuscript_title": "A Gradual Damage Suspicion Warning Method for Ship Structures Based on Autoencoder Health Manifold Modeling",
+  "journal": "Ships and Offshore Structures",
+  "authors": [
+    "Desong Lyu",
+    "Lijuan Xia"
+  ],
+  "description": "Preprocessed strain-response matrices, measurement metadata, baseline validation results, pretrained autoencoder model, and analysis scripts supporting the manuscript.",
+  "data_files": [
+    {
+      "path": "data/health_original_2000_preprocessed_data_raw.npz",
+      "array": "V",
+      "shape": [2000, 252],
+      "description": "Healthy strain-response samples used for autoencoder training and validation."
+    },
+    {
+      "path": "data/crack_first_damage_original_100_preprocessed_data_raw.npz",
+      "array": "V",
+      "shape": [100, 252],
+      "description": "Crack damage test samples."
+    },
+    {
+      "path": "data/corrosion_second_damage_12_original_100_preprocessed_data_raw.npz",
+      "array": "V",
+      "shape": [100, 252],
+      "description": "Corrosion damage test samples."
+    },
+    {
+      "path": "data/multi_damage_two_circle_original_100_preprocessed_data_raw.npz",
+      "array": "V",
+      "shape": [100, 252],
+      "description": "Combined multi-damage test samples."
+    }
+  ],
+  "not_publicly_included": [
+    "Complete Abaqus CAE model files",
+    "Full simulation input decks",
+    "Institution-controlled ship structural model details"
+  ],
+  "reason_for_exclusion": "The excluded files contain detailed ship structural model information and unpublished institutional research materials. The shared matrices and metadata directly support the reported autoencoder validation and damage-detection analyses."
+}

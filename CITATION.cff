@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Supporting data for autoencoder-based gradual damage warning for ship structures"
+message: "If you use this dataset, please cite the associated manuscript."
+type: dataset
+authors:
+  - family-names: Lyu
+    given-names: Desong
+  - family-names: Xia
+    given-names: Lijuan
+repository-code: "TO_BE_FILLED_AFTER_PUBLIC_UPLOAD"
+date-released: 2026-06-06
+license: "CC-BY-4.0"
